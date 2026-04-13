@@ -1,37 +1,55 @@
 Assignment 3 README
 
-This project implements brain state classification from fMRI data for two datasets:
-1. sub-01/ses-test
-2. sub-01/ses-retest
+This project implements brain state classification using fMRI data for two datasets:
+sub-01/ses-test and sub-01/ses-retest. All required steps (a)–(e) were performed independently
+for each dataset, including preprocessing, feature extraction, classification, cross-validation,
+and parameter search.
 
-For each dataset, preprocessing, brain masking, feature extraction, optional PCA,
-classification, K-fold cross-validation, and parameter search were performed independently.
+Step (e): Parameter Search
 
-Step (e): Parameter Search Summary
+For both datasets, a grid search was performed over the following parameters:
 
-1. Dataset: ses-test
-- Brain mask thresholds explored:
-- SVM hyperparameters explored:
-- K values explored for cross-validation:
-- PCA components explored (if used):
-- Best mean cross-validation accuracy:
+- Brain mask threshold: 0.12, 0.15, 0.18, 0.20, 0.22, 0.24, 0.26
+- Number of folds (K) for cross-validation: 6, 8, 10
+- PCA components: None (PCA was considered but not used in the final best model)
+- SVM hyperparameters:
+  - Kernel: linear
+  - C values: 0.01, 0.05, 0.1, 0.2, 0.5, 1, 2, 5, 10
+
+Other parameter combinations (e.g., PCA-based models or different threshold values) were explored,
+but did not achieve better performance than the selected best configurations.
+
+
+Dataset: ses-test
+
+- Best mean cross-validation accuracy: 89.70%
 - Best parameter combination:
+  - Brain mask threshold: 0.12
+  - Number of folds (K): 6
+  - PCA: None
+  - SVM kernel: linear
+  - SVM C: 0.01
+- Number of masked voxels: 18864
 
-Other explored values:
--
 
-2. Dataset: ses-retest
-- Brain mask thresholds explored:
-- SVM hyperparameters explored:
-- K values explored for cross-validation:
-- PCA components explored (if used):
-- Best mean cross-validation accuracy:
+Dataset: ses-retest
+
+- Best mean cross-validation accuracy: 85.32%
 - Best parameter combination:
+  - Brain mask threshold: 0.12
+  - Number of folds (K): 6
+  - PCA: None
+  - SVM kernel: linear
+  - SVM C: 0.01
+- Number of masked voxels: 18210
 
-Other explored values:
--
 
 Notes:
-- Each dataset used its own brain mask.
-- Each dataset used its own parameter tuning procedure.
-- The dataset itself is not included in the submission package.
+
+- Each dataset was processed independently, with its own brain mask, parameter tuning,
+  and best accuracy, as required.
+- A single-threshold method was used to generate the brain mask from the mean fMRI image.
+- Feature extraction was performed by applying the mask and reshaping the data into
+  (timepoints, voxel_features).
+- Stratified K-fold cross-validation was used to evaluate model performance.
+- PCA was explored but not included in the final best model, as it did not improve accuracy.
