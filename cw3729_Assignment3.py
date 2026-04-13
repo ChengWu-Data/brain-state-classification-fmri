@@ -13,16 +13,14 @@ from sklearn.svm import SVC
 from sklearn.model_selection import StratifiedKFold, cross_val_score
 
 
-# =========================
 # User-configurable paths
-# =========================
 # Put this script in the project folder.
 # After extracting sub-01.rar, make sure the extracted folder is inside DATA_DIR
 # or point DATA_DIR to the correct location.
 
-DATA_DIR = Path("./sub-01")       # folder containing extracted ses-test / ses-retest files
-LABEL_PATH = Path("./label.mat")  # path to label.mat
-OUTPUT_DIR = Path("./outputs")    # results / masks will be saved here
+DATA_DIR = Path("./sub-01")      
+LABEL_PATH = Path("./label.mat")  
+OUTPUT_DIR = Path("./outputs")    
 
 # Parameter search space
 THRESHOLDS = [0.12, 0.15, 0.18, 0.20, 0.22, 0.24, 0.26]
@@ -35,9 +33,7 @@ GAMMA_VALUES = ["scale"]
 RANDOM_STATE = 42
 
 
-# =========================
 # Utility functions
-# =========================
 def ensure_output_dir(output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -303,16 +299,13 @@ def run_grid_search_for_dataset(dataset_name: str, nifti_path: Path, labels: np.
     if best_result is None or best_mask is None:
         raise RuntimeError(f"No valid parameter combination succeeded for dataset {dataset_name}")
 
-    # Save best mask
     mask_path = output_dir / f"{dataset_name}_best_mask.nii.gz"
     save_mask_nifti(best_mask, reference_img, mask_path)
 
-    # Save all results
     results_path = output_dir / f"{dataset_name}_all_results.json"
     with open(results_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2)
 
-    # Save best result
     best_result["best_mask_path"] = str(mask_path)
     best_result_path = output_dir / f"{dataset_name}_best_result.json"
     with open(best_result_path, "w", encoding="utf-8") as f:
