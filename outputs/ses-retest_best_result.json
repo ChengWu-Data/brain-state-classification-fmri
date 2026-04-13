@@ -1,0 +1,14 @@
+{
+  "dataset": "ses-retest",
+  "nifti_path": "sub-01/ses-retest/func/sub-01_ses-retest_task-fingerfootlips_bold.nii",
+  "threshold_ratio": 0.12,
+  "num_masked_voxels": 18210,
+  "num_features_after_mask": 18210,
+  "k_folds": 6,
+  "pca_components": null,
+  "svm_C": 0.01,
+  "svm_kernel": "linear",
+  "svm_gamma": null,
+  "mean_cv_accuracy": 0.8532258064516128,
+  "best_mask_path": "outputs/ses-retest_best_mask.nii.gz"
+}

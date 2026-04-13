@@ -1,0 +1,37 @@
+Assignment 3 README
+
+This project implements brain state classification from fMRI data for two datasets:
+1. sub-01/ses-test
+2. sub-01/ses-retest
+
+For each dataset, preprocessing, brain masking, feature extraction, optional PCA,
+classification, K-fold cross-validation, and parameter search were performed independently.
+
+Step (e): Parameter Search Summary
+
+1. Dataset: ses-test
+- Brain mask thresholds explored:
+- SVM hyperparameters explored:
+- K values explored for cross-validation:
+- PCA components explored (if used):
+- Best mean cross-validation accuracy:
+- Best parameter combination:
+
+Other explored values:
+-
+
+2. Dataset: ses-retest
+- Brain mask thresholds explored:
+- SVM hyperparameters explored:
+- K values explored for cross-validation:
+- PCA components explored (if used):
+- Best mean cross-validation accuracy:
+- Best parameter combination:
+
+Other explored values:
+-
+
+Notes:
+- Each dataset used its own brain mask.
+- Each dataset used its own parameter tuning procedure.
+- The dataset itself is not included in the submission package.

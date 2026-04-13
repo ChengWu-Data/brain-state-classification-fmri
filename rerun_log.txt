@@ -1,0 +1,435 @@
+Loading labels...
+Labels loaded. Shape: (184,)
+Unique labels: [1 2 3 4]
+
+Finding NIfTI files...
+ses-test: sub-01/ses-test/func/sub-01_ses-test_task-fingerfootlips_bold.nii
+ses-retest: sub-01/ses-retest/func/sub-01_ses-retest_task-fingerfootlips_bold.nii
+================================================================================
+Processing dataset: ses-test
+NIfTI file: sub-01/ses-test/func/sub-01_ses-test_task-fingerfootlips_bold.nii
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8970
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.12, voxels=18864, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8916
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.15, voxels=18187, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.18, voxels=17648, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.20, voxels=17373, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.22, voxels=17098, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.24, voxels=16826, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8801
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8862
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8859
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+[ses-test] threshold=0.26, voxels=16585, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8857
+
+Best result:
+{
+  "dataset": "ses-test",
+  "nifti_path": "sub-01/ses-test/func/sub-01_ses-test_task-fingerfootlips_bold.nii",
+  "threshold_ratio": 0.12,
+  "num_masked_voxels": 18864,
+  "num_features_after_mask": 18864,
+  "k_folds": 6,
+  "pca_components": null,
+  "svm_C": 0.01,
+  "svm_kernel": "linear",
+  "svm_gamma": null,
+  "mean_cv_accuracy": 0.8969534050179213,
+  "best_mask_path": "outputs/ses-test_best_mask.nii.gz"
+}
+Best mask saved to: outputs/ses-test_best_mask.nii.gz
+All results saved to: outputs/ses-test_all_results.json
+Best result saved to: outputs/ses-test_best_result.json
+================================================================================
+================================================================================
+Processing dataset: ses-retest
+NIfTI file: sub-01/ses-retest/func/sub-01_ses-retest_task-fingerfootlips_bold.nii
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.12, voxels=18210, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8199
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8532
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8478
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.15, voxels=17668, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.18, voxels=17207, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.7982
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.20, voxels=16957, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8038
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8477
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8424
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.22, voxels=16724, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.24, voxels=16499, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=6, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8421
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=8, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8370
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=0.01, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=0.05, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=0.1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=0.2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=0.5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=1, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=2, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=5, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+[ses-retest] threshold=0.26, voxels=16298, K=10, PCA=None, C=10, kernel=linear, gamma=N/A -> mean CV acc=0.8094
+
+Best result:
+{
+  "dataset": "ses-retest",
+  "nifti_path": "sub-01/ses-retest/func/sub-01_ses-retest_task-fingerfootlips_bold.nii",
+  "threshold_ratio": 0.12,
+  "num_masked_voxels": 18210,
+  "num_features_after_mask": 18210,
+  "k_folds": 6,
+  "pca_components": null,
+  "svm_C": 0.01,
+  "svm_kernel": "linear",
+  "svm_gamma": null,
+  "mean_cv_accuracy": 0.8532258064516128,
+  "best_mask_path": "outputs/ses-retest_best_mask.nii.gz"
+}
+Best mask saved to: outputs/ses-retest_best_mask.nii.gz
+All results saved to: outputs/ses-retest_all_results.json
+Best result saved to: outputs/ses-retest_best_result.json
+================================================================================
+Summary for README saved to: outputs/summary_for_readme.txt
+
+Done. Both datasets were processed independently as required.
+You can now use the saved best results to fill UNI_Name_Assignment3.README.
